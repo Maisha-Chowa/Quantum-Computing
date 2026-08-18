@@ -8,6 +8,10 @@ For an interactive walkthrough, open `max-cut-qubo.ipynb` in Jupyter.
 For the same signed weighted example as the brute-force tutorial running on a
 real D-Wave QPU, open `MaxCut-QUBO-DWave-Ocean.ipynb`.
 
+For an explanation of embedding chains, chain length, chain breaks, and their
+relationship to gate-based systems, read
+`Qubit-Chains-and-Chain-Breaks.md`.
+
 ## 1. Max-Cut problem
 
 Max-Cut divides the vertices of a graph into two groups and maximizes the total
