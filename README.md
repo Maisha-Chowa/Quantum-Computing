@@ -102,3 +102,11 @@ EDGES = [
 
 Weights should normally be nonnegative for the standard weighted Max-Cut
 problem. For larger graphs, increase `num_reads` and optionally `num_sweeps`.
+
+ssh -T git@github-personal
+
+git remote set-url origin git@github-personal:Maisha-Chowa/Quantum-Computing
+
+git remote set-url origin git@github-personal:Maisha-Chowa/qubo-learning
+
+https://github.com/anikaislam16/qubo-learning

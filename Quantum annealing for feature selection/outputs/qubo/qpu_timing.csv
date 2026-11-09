@@ -1,0 +1,10 @@
+field,microseconds,seconds
+qpu_sampling_time,123440.0,0.12344
+qpu_anneal_time_per_sample,20.0,2e-05
+qpu_readout_time_per_sample,82.86,8.286e-05
+qpu_access_time,139397.96,0.13939796
+qpu_access_overhead_time,715.04,0.00071504
+qpu_programming_time,15957.96,0.01595796
+qpu_delay_time_per_sample,20.58,2.058e-05
+total_post_processing_time,1.0,1e-06
+post_processing_overhead_time,1.0,1e-06

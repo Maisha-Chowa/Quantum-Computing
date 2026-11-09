@@ -1,0 +1,14 @@
+{
+  "name": "Pima Indians Diabetes Database",
+  "download_url": "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv",
+  "documentation_url": "https://www.openml.org/api/v1/json/data/37",
+  "mirror_documentation_url": "https://github.com/jbrownlee/Datasets/blob/master/pima-indians-diabetes.names",
+  "retrieved_at_utc": "2026-11-07T12:18:30.541169+00:00",
+  "sha256": "6bfe5d0f379d17a0e0819b996407e3c09bf80febd4287f2ed212190dfff154af",
+  "format": "Headerless CSV: eight predictors followed by Outcome",
+  "expected_shape": [
+    768,
+    9
+  ],
+  "original_owners": "National Institute of Diabetes and Digestive and Kidney Diseases"
+}

@@ -1,0 +1,7 @@
+method,num_features,selected_features,available
+All features,8,"Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age",True
+Top correlation (CV k),8,"Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age",True
+Top correlation (matched k),4,"Glucose, Insulin, BMI, Age",True
+Exact QUBO (CPU),4,"Pregnancies, Glucose, BMI, DiabetesPedigreeFunction",True
+Simulated annealing (CPU),4,"Pregnancies, Glucose, BMI, DiabetesPedigreeFunction",True
+D-Wave QPU,4,"Pregnancies, Glucose, BMI, DiabetesPedigreeFunction",True

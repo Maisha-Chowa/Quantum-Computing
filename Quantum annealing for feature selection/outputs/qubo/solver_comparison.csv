@@ -1,0 +1,4 @@
+method,best_feasible_energy,energy_gap,feasible_read_fraction,exact_optimum_read_fraction,weighted_chain_break_fraction,solver_wall_s
+Exact QUBO (CPU),-0.24130560368499365,0.0,,,,0.00030291700386442244
+Simulated annealing (CPU),-0.24130560368499365,0.0,1.0,0.03,,0.06207141598861199
+D-Wave QPU,-0.2413056036849936,5.551115123125783e-17,0.983,0.037,0.0,5.0231649999914225

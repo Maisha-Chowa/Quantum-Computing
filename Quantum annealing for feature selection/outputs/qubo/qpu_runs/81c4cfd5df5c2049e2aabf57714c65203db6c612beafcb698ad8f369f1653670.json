@@ -1,0 +1,69 @@
+{
+  "status": "completed",
+  "backend": "direct D-Wave QPU",
+  "fingerprint": "81c4cfd5df5c2049e2aabf57714c65203db6c612beafcb698ad8f369f1653670",
+  "loaded_from_cache": false,
+  "solver": "Advantage_system6;graph_id=01dae5a273",
+  "problem_id": "efc6b6f3-0166-4eda-876d-19006bc1fb8c",
+  "completed_at_utc": "2026-11-07T14:05:21.922861+00:00",
+  "num_reads_requested": 1000,
+  "num_reads_returned": 1000,
+  "logical_variables": 8,
+  "physical_qubits": 12,
+  "maximum_chain_length": 2,
+  "embedding": {
+    "1": [
+      4701,
+      1299
+    ],
+    "0": [
+      1254
+    ],
+    "2": [
+      4686,
+      1314
+    ],
+    "3": [
+      4656
+    ],
+    "4": [
+      1269,
+      4611
+    ],
+    "5": [
+      4641,
+      1284
+    ],
+    "6": [
+      4671
+    ],
+    "7": [
+      1239
+    ]
+  },
+  "chain_strength": 2.331843685195289,
+  "embedding_timing": {
+    "embedding": 0.00036329199792817235,
+    "unembedding": 0.0004824579955311492
+  },
+  "topology": {
+    "type": "pegasus",
+    "shape": [
+      16
+    ]
+  },
+  "default_annealing_time_us": 20.0,
+  "setup_wall_s": 1.3548890829988522,
+  "solver_wall_s": 5.0231649999914225,
+  "timing_us": {
+    "qpu_sampling_time": 123440.0,
+    "qpu_anneal_time_per_sample": 20.0,
+    "qpu_readout_time_per_sample": 82.86,
+    "qpu_access_time": 139397.96,
+    "qpu_access_overhead_time": 715.04,
+    "qpu_programming_time": 15957.96,
+    "qpu_delay_time_per_sample": 20.58,
+    "total_post_processing_time": 1.0,
+    "post_processing_overhead_time": 1.0
+  }
+}

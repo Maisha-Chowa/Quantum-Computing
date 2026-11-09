@@ -1,0 +1,49 @@
+{
+  "dataset": "Pima Indians Diabetes Database",
+  "source_url": "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv",
+  "source_sha256": "6bfe5d0f379d17a0e0819b996407e3c09bf80febd4287f2ed212190dfff154af",
+  "feature_order": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age"
+  ],
+  "target": "Outcome",
+  "random_state": 42,
+  "test_size": 0.2,
+  "stratified": true,
+  "training_rows": 614,
+  "test_rows": 154,
+  "zero_as_missing": [
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI"
+  ],
+  "imputation": "Median, fitted on the training split only",
+  "training_medians": {
+    "Pregnancies": 3.0,
+    "Glucose": 117.0,
+    "BloodPressure": 72.0,
+    "SkinThickness": 29.0,
+    "Insulin": 125.0,
+    "BMI": 32.4,
+    "DiabetesPedigreeFunction": 0.3825,
+    "Age": 29.0
+  },
+  "correlation_method": "Pearson, computed on imputed training data only",
+  "relevance": "Absolute feature-target Pearson correlation",
+  "redundancy": "Absolute feature-feature Pearson correlation, diagonal zero",
+  "versions": {
+    "numpy": "2.5.1",
+    "pandas": "3.0.1",
+    "matplotlib": "3.10.8",
+    "scikit-learn": "1.9.1"
+  },
+  "validation_note": "Refit imputation and correlations within each future cross-validation fold."
+}
